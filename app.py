@@ -17,8 +17,7 @@ st.set_page_config(
 
 st.markdown("""
 <style>
-
-/* ===== BACKGROUND ===== */
+
 
 .stApp {
     background:
@@ -42,8 +41,7 @@ st.markdown("""
     background-attachment: fixed;
     color: #ececf4;
 }
-
-/* ===== MAIN CONTENT ===== */
+
 
 .block-container {
     max-width: 1150px;
@@ -51,14 +49,14 @@ st.markdown("""
     padding-bottom: 4rem;
 }
 
-/* ===== TOP NAVBAR ===== */
+
 
 header[data-testid="stHeader"] {
     background: rgba(10, 10, 18, 0.85);
     border-bottom: 1px solid rgba(255,255,255,0.08);
 }
 
-/* ===== HEADINGS ===== */
+
 
 h1, h2, h3 {
     color: #ececf4 !important;
@@ -70,14 +68,14 @@ p, label {
     color: #b4b4c7 !important;
 }
 
-/* ===== SIDEBAR ===== */
+
 
 section[data-testid="stSidebar"] {
     background: rgba(14, 14, 24, 0.92);
     border-right: 1px solid rgba(255,255,255,0.08);
 }
 
-/* ===== INPUT FIELDS ===== */
+
 
 [data-testid="stNumberInput"] input,
 [data-testid="stTextInput"] input {
@@ -87,7 +85,7 @@ section[data-testid="stSidebar"] {
     border-radius: 10px !important;
 }
 
-/* ===== DROPDOWN ===== */
+
 
 [data-testid="stSelectbox"] div[data-baseweb="select"] > div {
     background: rgba(255,255,255,0.05);
@@ -96,7 +94,7 @@ section[data-testid="stSidebar"] {
     color: #ececf4;
 }
 
-/* ===== BUTTONS ===== */
+
 
 .stButton > button,
 .stButton > button p,
@@ -118,7 +116,7 @@ section[data-testid="stSidebar"] {
     color: #ffffff !important;
 }
 
-/* ===== CONTAINERS ===== */
+
 
 div[data-testid="stVerticalBlockBorderWrapper"] {
     background: rgba(255,255,255,0.035);
@@ -126,21 +124,20 @@ div[data-testid="stVerticalBlockBorderWrapper"] {
     border-radius: 14px;
 }
 
-/* ===== CODE BLOCKS ===== */
+
 
 [data-testid="stCode"] {
     background: rgba(0,0,0,0.35);
     border: 1px solid rgba(255,255,255,0.10);
     border-radius: 10px;
 }
-
-/* ===== DIVIDER ===== */
+
 
 hr {
     border-color: rgba(255,255,255,0.10) !important;
 }
 
-/* ===== SCROLLBAR ===== */
+
 
 ::-webkit-scrollbar {
     width: 8px;
